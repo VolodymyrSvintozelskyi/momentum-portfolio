@@ -1,12 +1,12 @@
 {
-  "description": "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.",
+  "description": "I'm a researcher in particle physics field. I have a strong background in experimental particle physics, with a focus on the development of new data acquisition and triggering systems.",
   "skills": [
-    "Web design",
-    "User experience",
-    "Inclusive design",
-    "Focus group testing",
-    "Mobile user interfaces",
-    "Graphic design"
+    "High performance software development",
+    "Data analysis",
+    "Machine learning",
+    "FPGA design & digital electronics",
+    "PCB design",
+    "Low level programming"
   ],
-  "detailOrQuote": "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all."
+  "detailOrQuote": "I am passionate about using my skills to advance our understanding of the universe. And, what is more important, to develop a new wonderful techniques to make our life easier along my path."
 }
