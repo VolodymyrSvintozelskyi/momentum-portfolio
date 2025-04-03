@@ -1,5 +1,5 @@
 {
-  "description": "I'm a researcher in particle physics field. I have a strong background in experimental particle physics, with a focus on the development of new data acquisition and triggering systems.",
+  "description": "I'm a particle physics researcher with a strong background in experimental physics, with a focus on the development of new data acquisition and triggering systems.",
   "skills": [
     "High performance software development",
     "Data analysis",
@@ -8,5 +8,5 @@
     "PCB design",
     "Low level programming"
   ],
-  "detailOrQuote": "I am passionate about using my skills to advance our understanding of the universe. And, what is more important, to develop a new wonderful techniques to make our life easier along my path."
+  "detailOrQuote": "I am passionate about using my skills to advance our understanding of the universe. And, what is more important, to develop new wonderful technologies to make our life easier."
 }
