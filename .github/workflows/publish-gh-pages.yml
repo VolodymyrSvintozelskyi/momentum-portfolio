@@ -73,18 +73,18 @@ jobs:
       with:
         path: published/wwwroot
 
-  # deploy:
-  #   name: Deploy App to GitHub Pages
-  #   needs:
-  #   - build_test_artifact
+  deploy:
+    name: Deploy App to GitHub Pages
+    needs:
+    - build_test_artifact
 
-  #   runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
-  #   environment:
-  #     name: github-pages
-  #     url: ${{ steps.deployment.outputs.page_url }}
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
-  #   steps:
-  #   - name: Deploy to GitHub Pages
-  #     id: deployment
-  #     uses: actions/deploy-pages@v1
+    steps:
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v1
