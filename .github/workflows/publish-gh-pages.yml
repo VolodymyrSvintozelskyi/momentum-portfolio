@@ -48,43 +48,43 @@ jobs:
     #       $json.Replace("../", "$repository/") | Out-File -Path $_.FullName -Force
     #     }
 
-    - name: Restore NuGet packages
-      shell: bash
-      run: |
-        dotnet restore .
+  #   - name: Restore NuGet packages
+  #     shell: bash
+  #     run: |
+  #       dotnet restore .
 
-    - name: Build solution
-      shell: bash
-      run: |
-        dotnet build .
+  #   - name: Build solution
+  #     shell: bash
+  #     run: |
+  #       dotnet build .
 
-    - name: Test solution
-      shell: bash
-      run: |
-        dotnet test . -c Release
+  #   - name: Test solution
+  #     shell: bash
+  #     run: |
+  #       dotnet test . -c Release
 
-    - name: Publish artifact
-      shell: bash
-      run: |
-        dotnet publish src/BlazorApp -c Release -o published
+  #   - name: Publish artifact
+  #     shell: bash
+  #     run: |
+  #       dotnet publish src/BlazorApp -c Release -o published
 
-    - name: Upload artifact for web
-      uses: actions/upload-pages-artifact@v1
-      with:
-        path: published/wwwroot
+  #   - name: Upload artifact for web
+  #     uses: actions/upload-pages-artifact@v1
+  #     with:
+  #       path: published/wwwroot
 
-  deploy:
-    name: Deploy App to GitHub Pages
-    needs:
-    - build_test_artifact
+  # deploy:
+  #   name: Deploy App to GitHub Pages
+  #   needs:
+  #   - build_test_artifact
 
-    runs-on: ubuntu-latest
+  #   runs-on: ubuntu-latest
 
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  #   environment:
+  #     name: github-pages
+  #     url: ${{ steps.deployment.outputs.page_url }}
 
-    steps:
-    - name: Deploy to GitHub Pages
-      id: deployment
-      uses: actions/deploy-pages@v1
+  #   steps:
+  #   - name: Deploy to GitHub Pages
+  #     id: deployment
+  #     uses: actions/deploy-pages@v1
