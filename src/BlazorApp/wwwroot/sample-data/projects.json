@@ -1,40 +1,37 @@
 [
   {
     "title": "New tool to detect new physics at LHCb experiment 🤩!",
-    "description": "A new algorithm has been developed at LHCb to reconstruct and select very displaced vertices in real-time. The algorithm employs an optimized strategy and a Neural Network (NN) to improve track efficiency and reduce ghost rates, achieving high throughput within a limited time budget. It increases LHCb's potential for detecting long-lived particles during Run 3.",
+    "description": "A new algorithm improves LHCb's ability to detect long-lived particles in real-time.",
     "url": "https://arxiv.org/abs/2503.13092"
   },
   {
     "title": "New electronics for the HADES MDC drift chambers",
-    "description": "The HADES experiment at GSI is upgrading its drift chamber electronics to improve reliability and handle higher trigger rates. The new system uses PASTTREC ASICs for signal processing and FPGA-based TDCs for digitization. Key challenges include limited space, noise sensitivity, and low power requirements due to thermal constraints.",
+    "description": "HADES upgrades electronics for better reliability and higher trigger rates.",
     "url": "https://doi.org/10.1088/1748-0221/19/02/C02056"
   },
   {
     "title": "Impact of the high-level trigger for detecting long-lived particles at LHCb",
-    "description": "LHCb faces challenges detecting long-lived particles (LLPs) due to their displaced vertices and high data complexity. This study adapts trigger algorithms to improve LLP detection. A new algorithm tackles the issue of excessive hit combinations, significantly boosting LLP reconstruction efficiency once fully implemented.",
+    "description": "New trigger algorithms improve LLP detection at LHCb.",
     "url": "https://doi.org/10.1051/epjconf/202429502015"
   },
   {
     "title": "LHCb potential to discover long-lived new physics particles with lifetimes above 100 ps",
-    "description": "LHCb was thought to have limited capability in searching for long-lived particles (LLPs). However, this study shows that using the new Downstream algorithm, LHCb could become a leading experiment in the lifetime frontier, achieving sensitivity comparable to proposed LLP-dedicated experiments for various models like heavy neutral leptons and dark photons.",
+    "description": "LHCb shows strong potential for LLP discovery using new algorithms.",
     "url": "https://doi.org/10.1140/epjc/s10052-024-12906-3"
   },
   {
     "title": "Low Gain Avalanche Detector Application for Beam Monitoring.",
-    "description": "The S-DALINAC is a superconducting electron accelerator that operates in energy recovery mode (ERL), where accelerated and decelerated beams share the same beamline. This results in a 6 GHz bunch rate. To optimize the acceleration and deceleration processes, non-destructive monitoring is essential. The Low Gain Avalanche Detector (LGAD), a silicon detector with high timing resolution, is promising for monitoring the beam time structure. This paper presents the first proof-of-principle measurement of beam time structure using LGAD sensors at S-DALINAC.",
+    "description": "LGAD sensors enable non-destructive beam monitoring at S-DALINAC.",
     "url": "https://doi.org/10.18429/JACoW-IBIC2022-MOP29"
   },
   {
     "title": "LGAD technology for HADES, accelerator and medical applications.",
-    "description": "LGAD technology has been used to develop prototype and full-size beam detectors for applications needing both time and spatial precision. These sensors, produced at Fondazione Bruno Kessler (FBK), are applied in various settings, including the High Acceptance Di-Electron Spectrometer (HADES) at GSI for proton and pion beam experiments, beam structure monitoring at S-DALINAC, and medical applications at MedAustron. The paper also discusses future upgrade projects at GSI and FAIR.",
+    "description": "LGAD sensors are used in HADES, beam monitoring, and medical applications.",
     "url": "https://doi.org/10.1016/j.nima.2022.167046"
   },
   {
     "title": "Pomeron/glueball and odderon/oddball trajectories",
-    "description": "This study predicts glueball and oddball resonances along the pomeron and odderon trajectories. A new form for these trajectories, based on threshold and asymptotic behavior required by analyticity and unitarity, is proposed. The parameters of the pomeron and odderon trajectories are fitted to data from high-energy elastic proton-proton and proton-antiproton scattering. These fitted trajectories are then extrapolated to predict the masses and widths of glueballs and oddballs, which can be used for calculating central exclusive diffraction (CED) processes.",
+    "description": "New trajectories predict glueball and oddball masses and widths.",
     "url": "https://doi.org/10.1016/j.nuclphysa.2020.121728"
   }
 ]
-
-
-
