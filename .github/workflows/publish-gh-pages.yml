@@ -48,15 +48,15 @@ jobs:
     #       $json.Replace("../", "$repository/") | Out-File -Path $_.FullName -Force
     #     }
 
-  #   - name: Restore NuGet packages
-  #     shell: bash
-  #     run: |
-  #       dotnet restore .
+    - name: Restore NuGet packages
+      shell: bash
+      run: |
+        dotnet restore .
 
-  #   - name: Build solution
-  #     shell: bash
-  #     run: |
-  #       dotnet build .
+    - name: Build solution
+      shell: bash
+      run: |
+        dotnet build .
 
   #   - name: Test solution
   #     shell: bash
