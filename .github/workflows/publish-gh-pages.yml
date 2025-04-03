@@ -58,15 +58,15 @@ jobs:
       run: |
         dotnet build .
 
-  #   - name: Test solution
-  #     shell: bash
-  #     run: |
-  #       dotnet test . -c Release
+    - name: Test solution
+      shell: bash
+      run: |
+        dotnet test . -c Release
 
-  #   - name: Publish artifact
-  #     shell: bash
-  #     run: |
-  #       dotnet publish src/BlazorApp -c Release -o published
+    - name: Publish artifact
+      shell: bash
+      run: |
+        dotnet publish src/BlazorApp -c Release -o published
 
   #   - name: Upload artifact for web
   #     uses: actions/upload-pages-artifact@v1
